@@ -19,7 +19,8 @@ DEFINES += INPUTDIR=\\\"$$PWD/input/\\\"
 HEADERS +=     tst_test1.h \
     ../app/myfunc.h \
     fibonachi_test.h \
-    tst_stdout.h
+    tst_stdout.h \
+    korni_test.h
 
 SOURCES +=     main.cpp \
     ../app/myfunc.c
