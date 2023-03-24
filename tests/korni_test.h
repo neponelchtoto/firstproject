@@ -42,12 +42,12 @@ TEST(Discr, num4) {
 }
 
 TEST(Koefzero, num5) {
-    qvadr(0, 4, 3, &x1, &x2, &flag);
+    korni(0, 4, 3, &x1, &x2, &flag);
     ASSERT_EQ(flag, 1);
 }
 
 TEST(Koefzero, num6) {
-    qvadr(1, 0, -9, &x1, &x2, &flag);
+    korni(1, 0, -9, &x1, &x2, &flag);
     ASSERT_FLOAT_EQ(3, x1);
     ASSERT_FLOAT_EQ(-3, x2);
     ASSERT_EQ(flag, 1);
