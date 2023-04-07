@@ -5,5 +5,5 @@
 int main()
 {
     printf("Hello World!\n");
-    return korni(1, 0, -9, 0, 0, 0);
+    return korni(0, 4, 3, 0, 0, 0);
 }

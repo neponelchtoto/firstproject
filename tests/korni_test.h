@@ -1,3 +1,6 @@
+#ifndef KORNI_TEST_H
+#define KORNI_TEST_H
+
 #include <gtest/gtest.h>
 
 #include <fcntl.h>
