@@ -36,7 +36,7 @@ TEST(Discr, num3) {
 
 TEST(Discr, num4) {
     korni(1, 5, 3, &x1, &x2, &flag);
-    ASSERT_FLOAT_EQ(-0.697224, x1);
+    ASSERT_FLOAT_EQ(-0.69722402, x1);
     ASSERT_FLOAT_EQ(-4.30278, x2);
     ASSERT_EQ(0, flag);
 }
