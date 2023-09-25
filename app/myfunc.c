@@ -10,8 +10,6 @@ int myfunc(int b) {
     return buffer[0];
 }
 
-int val;
-
 int fibonachi(int num) {
     int prev = 1;
     int next = 1;
