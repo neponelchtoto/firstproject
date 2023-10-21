@@ -34,10 +34,10 @@ TEST(Discr, num3) {
     ASSERT_EQ(0, flag);
 }
 
-TEST(Discr, num4) {
-    korni(1, 5, 3, &x1, &x2, &flag);
-    ASSERT_FLOAT_EQ(-0.69722402, x1);
-    ASSERT_FLOAT_EQ(-4.30278, x2);
+TEST(Koefzero, num4) {
+    korni(1, 5, 0, &x1, &x2, &flag);
+    ASSERT_FLOAT_EQ(5, x1);
+    ASSERT_FLOAT_EQ(0, x2);
     ASSERT_EQ(0, flag);
 }
 
