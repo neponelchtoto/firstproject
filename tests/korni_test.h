@@ -36,8 +36,8 @@ TEST(Discr, num3) {
 
 TEST(Koefzero, num4) {
     korni(1, 5, 0, &x1, &x2, &flag);
-    ASSERT_FLOAT_EQ(5, x1);
-    ASSERT_FLOAT_EQ(0, x2);
+    ASSERT_FLOAT_EQ(0, x1);
+    ASSERT_FLOAT_EQ(-5, x2);
     ASSERT_EQ(0, flag);
 }
 
